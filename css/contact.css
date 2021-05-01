@@ -1,0 +1,55 @@
+
+.contact tr{
+  /* 1.テーブルの行の高さは7remを指定すること */
+    height: 7rem;
+  }
+  .contact th{
+    /* 2.<th>の幅に150pxを指定すること */
+    width: 15rem;
+    text-align: right;
+  }
+  .contact td input {
+    /* 3.入力フォームの幅に480pxを指定すること */
+    width: 48rem;
+  }
+  .contact td textarea {
+    /* 3.入力フォームの幅に480pxを指定すること */
+    width: 48rem;
+  }
+  .contact td{
+    width: 560px;
+    /* ラベルと入力フォームの間に10pxの余白を入れること */
+    padding-left: 1rem;
+  }
+  .contact{
+    border-collapse: collapse;
+  }
+   .contact th {
+     /* 改行を矯正的にせずに一列にした。 */
+    white-space: nowrap;
+  } 
+  .contact button {
+    /* 送信ボタンの文字色は白を指定し、サイズを3remにすること */
+    color: white;
+    font-size: 3rem;
+    background-color: #008B8B;
+    padding: 10px;
+  }
+  .contact button:hover{
+    /* 下の画像のように、送信ボタンにマウスオーバーした際、ボタンを半透明にすること */
+    opacity: 0.6;
+  }
+  .contact td {
+    text-align: center; 
+  }
+ 
+ 1 行の高さは tr で指定したが検証で確認できない。
+ 2ok　remで指定したほうがいいのか確認。
+ 3ok　remで指定したほうがいいのか確認。
+ 4 ok
+ 5 ok
+ 6問い合わせボタンだけを中央にするやり方がわからない。
+ 7文字色は白にできたが、サイズの3remとは文字サイズが3remなのかを確認する。
+ 8 背景色は入れたが,上下左右の余白の位置がボタンの周りにない。
+ 9
+
