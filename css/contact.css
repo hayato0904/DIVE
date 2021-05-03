@@ -47,7 +47,9 @@
   .contact{
     border-collapse: collapse;
   }
- 
+  .submit {
+    text-align: center;
+  }
  1 行の高さは tr で指定したが検証で確認できない。
  2ok　remで指定したほうがいいのか確認。
  3ok　remで指定したほうがいいのか確認。
