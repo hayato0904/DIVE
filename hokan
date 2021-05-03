@@ -5,14 +5,13 @@
   }
   .contact th{
     /* 2.<th>の幅に150pxを指定すること */
-    width: 150px;
+    width: 15rem;
     text-align: right;
   }
-  .contact td input[type=text] {
+  .contact td input {
     /* 3.入力フォームの幅に480pxを指定すること */
-    width: 480px;
+    width: 48rem;
   }
- 
   .contact td textarea {
     /* 3.入力フォームの幅に480pxを指定すること */
     width: 48rem;
@@ -35,17 +34,13 @@
     font-size: 3rem;
     background-color: #008B8B;
     padding: 10px;
-    text-align: center;
   }
   .contact button:hover{
     /* 下の画像のように、送信ボタンにマウスオーバーした際、ボタンを半透明にすること */
     opacity: 0.6;
   }
-  .contact td button{
+  .contact td {
     text-align: center; 
-  }
-  .contact{
-    border-collapse: collapse;
   }
  
  1 行の高さは tr で指定したが検証で確認できない。
